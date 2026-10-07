@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <string>
 #include <cctype>
@@ -45,7 +44,7 @@ int main()
 {
     string message;
 
-    cout << "Enter a message in English (A-Z characters only): ";
+    cout << "Enter an English message: ";
     getline(cin, message);
 
     cout << "\nMorse Code Translation:\n";
