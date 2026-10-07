@@ -47,7 +47,7 @@ int main()
     cout << "Enter an English message: ";
     getline(cin, message);
 
-    cout << "\nMorse Code Translation:\n";
+    cout << "\nIndividual Morse Code Translation:\n";
 
     // Display each valid letter and its Morse code
     for (char character : message)
