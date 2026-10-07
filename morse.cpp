@@ -64,7 +64,7 @@ int main()
     }
 
     // Display the complete Morse code message
-    cout << "\nFull Morse Code Message: ";
+    cout << "\nComplete Morse Code Message: ";
 
     bool firstLetter = true;
 
