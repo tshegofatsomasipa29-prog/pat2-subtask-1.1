@@ -52,7 +52,7 @@ int main()
     // Display each valid letter and its Morse code
     for (char character : message)
     {
-        // Convert lowercase letters to uppercase
+        // Convert all lowercase letters to uppercase for morse translation
         character = toupper(static_cast<unsigned char>(character));
 
         // Process alphabetic characters only
